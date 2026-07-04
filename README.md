@@ -76,8 +76,7 @@ Hobby Horizons
 
 ### Home Page
 
-![Home](images/home.png)
-
+![Home](Hobby%20Horizons/images/home.png)
 ### Registration
 
 ![Registration](images/registration.png)
