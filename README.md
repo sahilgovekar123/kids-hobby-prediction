@@ -1,16 +1,16 @@
-# Kids Hobby Prediction
+# Kids Hobby Prediction | Manual QA Testing Project
 
-A Flask-based web application that predicts suitable hobbies for children based on their interests and preferences. The application provides a simple user interface with user authentication and hobby prediction functionality.
+This repository documents my Manual QA testing of the **Kids Hobby Prediction** web application. The objective of this project was to evaluate the application's functionality, usability, and user workflows through structured manual testing.
 
-## Features
+Rather than focusing on application development, this repository highlights the QA perspective, including the testing scope, scenarios covered, observations, and supporting documentation.
 
-- User Registration
-- User Login
-- Hobby Prediction
-- Prediction Result Display
-- Simple and Responsive User Interface
+---
 
-## Technologies Used
+## Application Overview
+
+**Application Type:** Web Application
+
+**Technology Stack**
 
 - Python
 - Flask
@@ -18,21 +18,61 @@ A Flask-based web application that predicts suitable hobbies for children based 
 - CSS
 - SQLite
 
-## Project Structure
+**Purpose**
+
+The application predicts suitable hobbies for children based on user-provided information while providing user authentication and an interactive interface.
+
+---
+
+## Testing Scope
+
+The following areas were manually tested:
+
+- User Registration
+- User Login
+- Navigation
+- Hobby Prediction
+- Result Display
+- Logout
+- Form Validation
+- User Interface
+
+---
+
+## Testing Techniques Applied
+
+- Functional Testing
+- UI Testing
+- Smoke Testing
+- Exploratory Testing
+- Positive Testing
+- Negative Testing
+- Boundary Value Analysis
+- Equivalence Partitioning
+
+---
+
+## Repository Contents
 
 ```
-Kids Hobby Prediction
+Hobby Horizons
 │
-├── app.py
-├── templates/
-├── static/
-├── images/
-├── instance/
-├── req.txt
-└── README.md
+├── README.md
+├── Application Overview.md
+├── Features Tested.md
+├── Test Scenarios.md
+├── Testing Scope.md
+├── QA Findings.md
+├── Execution Notes.md
+├── Environment.md
+├── Challenges Faced.md
+├── Key Learnings.md
+└── images/
 ```
 
-## Screenshots
+---
+
+## Application Screenshots
 
 ### Home Page
 
@@ -54,40 +94,41 @@ Kids Hobby Prediction
 
 ![Result](images/result.png)
 
-## Installation
+---
 
-1. Clone the repository
+## Test Environment
 
-```bash
-git clone https://github.com/your-username/kids-hobby-prediction.git
-```
+| Component | Details |
+|----------|---------|
+| Operating System | Windows 11 |
+| Browser | Google Chrome |
+| Backend | Flask |
+| Database | SQLite |
+| Python Version | 3.12 |
 
-2. Install dependencies
+---
 
-```bash
-pip install -r req.txt
-```
+## Skills Demonstrated
 
-3. Run the application
+- Requirement Analysis
+- Functional Testing
+- UI Testing
+- Exploratory Testing
+- Test Scenario Design
+- Defect Identification
+- Application Analysis
+- QA Documentation
 
-```bash
-python app.py
-```
+---
 
-4. Open your browser and visit:
+## Objective
 
-```
-http://127.0.0.1:5000
-```
+This project demonstrates my practical understanding of Manual Software Testing by validating the core functionality of a real-world web application and documenting the testing process from a QA perspective.
 
-## Future Improvements
-
-- Enhanced prediction accuracy
-- Improved user interface
-- Password encryption
-- Deployment on Render or Railway
-- Automated testing
+---
 
 ## Author
 
 **Sahil Govekar**
+
+Aspiring Manual QA Engineer
